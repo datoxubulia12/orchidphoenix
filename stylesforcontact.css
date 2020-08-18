@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    font-family: 'Orbitron', sans-serif;
+}
+header{
+    background-color: white;
+    padding-left:10px;
+    margin: auto;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1000;
+    color: #4b4b4b;
+}
+header h1{
+    text-shadow: 2px 2px grey;
+}
+.bar{
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+header ul{
+    white-space: nowrap;
+}
+.libar{
+    width: 33.33%;
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px;
+}
+li a{
+    text-decoration:none;
+    color: #4b4b4b;
+}
+.contact{
+    color: #f63232;
+}
+p{
+    color: #4b4b4b;
+    text-align: center;
+    z-index: 100000;
+    top:1000px;
+    margin:460px;
+    margin-bottom: 250px;
+    font-size: 90px;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #4b4b4b;
+    margin-bottom: 10px;
+}
+.aboutme{
+    margin-top: 10px;
+    color: #4b4b4b;
+    font-size: 30px;
+    margin-bottom: 90px;
+}
+div img{
+    white-space: nowrap;
+}
+
+.row {
+    position: relative;
+    top: 300px;
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+.footer{
+    position: fixed;
+    background-color: #4b4b4b;;
+    width: 100%;
+    left:0px;
+    z-index:1000;
+    bottom: 0;
+    color:white;
+}
+.contact1{
+    font-size: 30px;
+}
+.facebookborder{
+    border-radius: 10%;
+    border: 8px solid #4b4b4b;
+}
+.youtubeborder{
+    border-radius: 10%;
+    border: 8px solid #4b4b4b;
+}
+.gmailborder{
+    border-radius: 10%;
+    border: 8px solid #4b4b4b;
+}
